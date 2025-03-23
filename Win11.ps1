@@ -52,7 +52,7 @@ function Write-SectionSuccess {
 }
 #endregion
 
-$ScriptName = 'win11.garytown.com'
+$ScriptName = 'win11.virtualcaffeine.io'
 $ScriptVersion = '25.01.22.1'
 Write-Host -ForegroundColor Green "$ScriptName $ScriptVersion"
 #iex (irm functions.garytown.com) #Add custom functions used in Script Hosting in GitHub
