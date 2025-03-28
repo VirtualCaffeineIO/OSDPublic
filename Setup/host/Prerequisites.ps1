@@ -1,4 +1,6 @@
 #Requires -RunAsAdministrator
+# Script is not signed, you may need to set an execution policy
+# Set-ExecutionPolicy bypass -Scope Session
 <#
 .SYNOPSIS
 Installs Microsoft ADK and the Windows PE add-on for Windows 11, version 24H2, and MDT using WinGet
