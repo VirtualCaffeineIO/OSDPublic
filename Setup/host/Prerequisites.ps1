@@ -64,7 +64,7 @@ else {
 
 if (Get-Command 'WinGet' -ErrorAction SilentlyContinue) {
     # Show all available versions
-    winget show --id Microsoft.DeploymentToolkit --versions
+    winget show --id Microsoft.DeploymentToolkit --versions --accept-source-agreements
 
     # Microsoft Deployment Toolkit
     winget install --id Microsoft.DeploymentToolkit --version 6.3.8456.1000 --exact --accept-source-agreements --accept-package-agreements
