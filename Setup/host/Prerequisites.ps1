@@ -2,6 +2,8 @@
 <#
 .SYNOPSIS
 Installs Microsoft ADK and the Windows PE add-on for Windows 11, version 24H2, and MDT using WinGet
+.Updates
+Links Updated for ADK as of March 28th 2025
 .LINK
 https://www.osdcloud.com/osdcloud/setup
 #>
